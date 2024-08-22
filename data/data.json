@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "userId": 5,
+      "userName": "ali",
+      "questionnairesCreated": 1,
+      "totalQuestionsAdded": 2
+    },
+    {
+      "userId": 4,
+      "userName": "fazal",
+      "answeredQuestions": [
+        {
+          "questionnaireId": 1,
+          "questions": [
+            {
+              "question": "what is your cast?",
+              "answer": "asd"
+            },
+            {
+              "question": "Which one is your favourite vehicle company?",
+              "answer": "wer"
+            }
+          ],
+          "answers": [
+            "asd",
+            "wer"
+          ]
+        }
+      ]
+    }
+  ],
+  "questionnaires": [
+    {
+      "id": 1,
+      "userId": 5,
+      "userName": "ali",
+      "questions": [
+        {
+          "test": "what is your cast?",
+          "answers": [
+            "xyz",
+            "malik",
+            "khan"
+          ]
+        },
+        {
+          "test": "Which one is your favourite vehicle company?",
+          "answers": [
+            "kia",
+            "changhon",
+            "honda"
+          ]
+        }
+      ],
+      "createdBy": "ali"
+    }
+  ],
+  "answers": []
+}
